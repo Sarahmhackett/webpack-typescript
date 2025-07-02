@@ -2,6 +2,7 @@ const path = require("path");
 
 module.exports = {
   entry: "./src/index.ts", // where to enter and start bundling
+  devtool: "inline-source-map", // create a source map to help with debugging
   module: {
     rules: [
       {
